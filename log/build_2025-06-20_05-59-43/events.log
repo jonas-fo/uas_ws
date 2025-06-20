@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000539] (thrust_package) JobQueued: {'identifier': 'thrust_package', 'dependencies': OrderedDict()}
+[0.001467] (thrust_package) JobStarted: {'identifier': 'thrust_package'}
+[0.099383] (-) TimerEvent: {}
+[0.199823] (-) TimerEvent: {}
+[0.300247] (-) TimerEvent: {}
+[0.400676] (-) TimerEvent: {}
+[0.500999] (-) TimerEvent: {}
+[0.601284] (-) TimerEvent: {}
+[0.701665] (-) TimerEvent: {}
+[0.801992] (-) TimerEvent: {}
+[0.902282] (-) TimerEvent: {}
+[1.001643] (thrust_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/thrust_package', 'build', '--build-base', '/home/uaskash/uas_ws/build/thrust_package/build', 'install', '--record', '/home/uaskash/uas_ws/build/thrust_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/uaskash/uas_ws/src/thrust_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'HOSTNAME': 'jonas-Lenovo-IdeaPad-S540-14API', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/uaskash/crazyflie_ws/install/crazyflie_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/uaskash', 'OLDPWD': '/home/uaskash', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/uaskash/uas_ws/install:/home/uaskash/crazyflie_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/uaskash/.local/bin', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/uaskash/uas_ws/install/thrust_package:/home/uaskash/crazyflie_ws/install/crazyflie_sim:/home/uaskash/crazyflie_ws/install/crazyflie_examples:/home/uaskash/crazyflie_ws/install/crazyflie_py:/home/uaskash/crazyflie_ws/install/crazyflie:/home/uaskash/crazyflie_ws/install/crazyflie_interfaces:/opt/ros/humble', 'DBUS_SYSTEM_BUS_ADDRESS': 'unix:path=/run/dbus/system_bus_socket', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/uaskash/uas_ws/build/thrust_package', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/uaskash/uas_ws/build/thrust_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages:/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages:/home/uaskash/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/uaskash/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/uaskash/crazyflie_ws/build/crazyflie_py:/home/uaskash/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/uaskash/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'TZ': 'Etc/UTC', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/uaskash/crazyflie_ws/install/crazyflie_sim:/home/uaskash/crazyflie_ws/install/crazyflie_examples:/home/uaskash/crazyflie_ws/install/crazyflie:/home/uaskash/crazyflie_ws/install/crazyflie_interfaces'}, 'shell': False}
+[1.002498] (-) TimerEvent: {}
+[1.102830] (-) TimerEvent: {}
+[1.201434] (thrust_package) StderrLine: {'line': b"/home/uaskash/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.201715] (thrust_package) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.202898] (-) TimerEvent: {}
+[1.303148] (-) TimerEvent: {}
+[1.332147] (thrust_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.352994] (thrust_package) StdoutLine: {'line': b'writing ../../build/thrust_package/thrust_package.egg-info/PKG-INFO\n'}
+[1.353627] (thrust_package) StdoutLine: {'line': b'writing dependency_links to ../../build/thrust_package/thrust_package.egg-info/dependency_links.txt\n'}
+[1.353907] (thrust_package) StdoutLine: {'line': b'writing entry points to ../../build/thrust_package/thrust_package.egg-info/entry_points.txt\n'}
+[1.354139] (thrust_package) StdoutLine: {'line': b'writing requirements to ../../build/thrust_package/thrust_package.egg-info/requires.txt\n'}
+[1.354378] (thrust_package) StdoutLine: {'line': b'writing top-level names to ../../build/thrust_package/thrust_package.egg-info/top_level.txt\n'}
+[1.397169] (thrust_package) StdoutLine: {'line': b"reading manifest file '../../build/thrust_package/thrust_package.egg-info/SOURCES.txt'\n"}
+[1.397715] (thrust_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.398914] (thrust_package) StdoutLine: {'line': b"writing manifest file '../../build/thrust_package/thrust_package.egg-info/SOURCES.txt'\n"}
+[1.399178] (thrust_package) StdoutLine: {'line': b'running build\n'}
+[1.399367] (thrust_package) StdoutLine: {'line': b'running build_py\n'}
+[1.399592] (thrust_package) StdoutLine: {'line': b'copying thrust_package/arm_command.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package\n'}
+[1.399809] (thrust_package) StdoutLine: {'line': b'copying thrust_package/thrust_command.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package\n'}
+[1.400029] (thrust_package) StdoutLine: {'line': b'copying thrust_package/__init__.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package\n'}
+[1.400403] (thrust_package) StdoutLine: {'line': b'running install\n'}
+[1.403230] (-) TimerEvent: {}
+[1.404913] (thrust_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.428249] (thrust_package) StdoutLine: {'line': b'copying /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package/thrust_command.py -> /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package\n'}
+[1.429395] (thrust_package) StdoutLine: {'line': b'byte-compiling /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package/thrust_command.py to thrust_command.cpython-310.pyc\n'}
+[1.430306] (thrust_package) StdoutLine: {'line': b'running install_data\n'}
+[1.430688] (thrust_package) StdoutLine: {'line': b'copying resource/thrust_package -> /home/uaskash/uas_ws/install/thrust_package/share/ament_index/resource_index/packages\n'}
+[1.431013] (thrust_package) StdoutLine: {'line': b'copying package.xml -> /home/uaskash/uas_ws/install/thrust_package/share/thrust_package\n'}
+[1.431213] (thrust_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.454304] (thrust_package) StdoutLine: {'line': b"removing '/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.454756] (thrust_package) StdoutLine: {'line': b'Copying ../../build/thrust_package/thrust_package.egg-info to /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package-0.0.0-py3.10.egg-info\n'}
+[1.455896] (thrust_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.503323] (-) TimerEvent: {}
+[1.603638] (-) TimerEvent: {}
+[1.625221] (thrust_package) StdoutLine: {'line': b'Installing arm_command script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package\n'}
+[1.625562] (thrust_package) StdoutLine: {'line': b'Installing thrust script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package\n'}
+[1.625923] (thrust_package) StdoutLine: {'line': b"writing list of installed files to '/home/uaskash/uas_ws/build/thrust_package/install.log'\n"}
+[1.667709] (thrust_package) CommandEnded: {'returncode': 0}
+[1.679625] (thrust_package) JobEnded: {'identifier': 'thrust_package', 'rc': 0}
+[1.680560] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[1.911s] Invoking command in '/home/uaskash/uas_ws/src/thrust_package': PYTHONPATH=/home/uaskash/uas_ws/build/thrust_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thrust_package build --build-base /home/uaskash/uas_ws/build/thrust_package/build install --record /home/uaskash/uas_ws/build/thrust_package/install.log --single-version-externally-managed install_data
+[2.329s] /home/uaskash/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.330s]   warnings.warn(msg)
+[2.565s] running egg_info
+[2.603s] writing ../../build/thrust_package/thrust_package.egg-info/PKG-INFO
+[2.604s] writing dependency_links to ../../build/thrust_package/thrust_package.egg-info/dependency_links.txt
+[2.604s] writing entry points to ../../build/thrust_package/thrust_package.egg-info/entry_points.txt
+[2.605s] writing requirements to ../../build/thrust_package/thrust_package.egg-info/requires.txt
+[2.606s] writing top-level names to ../../build/thrust_package/thrust_package.egg-info/top_level.txt
+[2.684s] reading manifest file '../../build/thrust_package/thrust_package.egg-info/SOURCES.txt'
+[2.685s] adding license file 'LICENSE'
+[2.687s] writing manifest file '../../build/thrust_package/thrust_package.egg-info/SOURCES.txt'
+[2.688s] running build
+[2.688s] running build_py
+[2.689s] copying thrust_package/arm_command.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+[2.689s] copying thrust_package/thrust_command.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+[2.690s] copying thrust_package/__init__.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+[2.691s] running install
+[2.708s] running install_lib
+[2.746s] copying /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package/thrust_command.py -> /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package
+[2.748s] byte-compiling /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package/thrust_command.py to thrust_command.cpython-310.pyc
+[2.750s] running install_data
+[2.751s] copying resource/thrust_package -> /home/uaskash/uas_ws/install/thrust_package/share/ament_index/resource_index/packages
+[2.752s] copying package.xml -> /home/uaskash/uas_ws/install/thrust_package/share/thrust_package
+[2.752s] running install_egg_info
+[2.793s] removing '/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.794s] Copying ../../build/thrust_package/thrust_package.egg-info to /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package-0.0.0-py3.10.egg-info
+[2.796s] running install_scripts
+[3.094s] Installing arm_command script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+[3.094s] Installing thrust script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+[3.095s] writing list of installed files to '/home/uaskash/uas_ws/build/thrust_package/install.log'
+[3.218s] Invoked command in '/home/uaskash/uas_ws/src/thrust_package' returned '0': PYTHONPATH=/home/uaskash/uas_ws/build/thrust_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thrust_package build --build-base /home/uaskash/uas_ws/build/thrust_package/build install --record /home/uaskash/uas_ws/build/thrust_package/install.log --single-version-externally-managed install_data
