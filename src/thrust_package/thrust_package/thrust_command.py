@@ -52,7 +52,7 @@ class Thrust(Node):
         msg = Twist()
         msg.linear.x=0.0
         msg.linear.y=0.0
-        if self.i%4 != 0:
+        if self.i%100 != 0:
             msg.linear.z=float(thrust_level)
         else:
             msg.linear.z=0.0
