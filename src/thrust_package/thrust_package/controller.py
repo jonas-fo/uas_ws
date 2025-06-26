@@ -19,6 +19,8 @@ current_pose=[0, 0, 0, 0 , 0 , 0, 1]
 
 controller_on = False
 
+integral_z=0
+
 class Controller(Node):
 
     def __init__(self):
@@ -106,7 +108,10 @@ class Controller(Node):
         z_error = setpoint_position[2]-z
         
         kp_z = 1000.0
-        p_z = z_error*kp_z
+        ki_z
+        integral_z+=z_error*0.01
+        
+        p_z = z_error*kp_z+integral_z*ki_z
 
 
         setpoint_yaw = 0.0
