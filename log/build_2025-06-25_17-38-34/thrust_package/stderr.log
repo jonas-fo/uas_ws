@@ -1,0 +1,7 @@
+/home/uaskash/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+  File "/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package/controller.py", line 1
+    colimport rclpy
+              ^^^^^
+SyntaxError: invalid syntax
+

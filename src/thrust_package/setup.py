@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             'arm_command = thrust_package.arm_command:main',
             'thrust = thrust_package.thrust_command:main',
-            'position_converter = thrust_package.position_converter:main'
+            'position_converter = thrust_package.position_converter:main',
+            'controller = thrust_package.controller:main'
         ],
     },
 )

@@ -1,0 +1,34 @@
+[0.800s] Invoking command in '/home/uaskash/uas_ws/src/thrust_package': PYTHONPATH=/home/uaskash/uas_ws/build/thrust_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thrust_package build --build-base /home/uaskash/uas_ws/build/thrust_package/build install --record /home/uaskash/uas_ws/build/thrust_package/install.log --single-version-externally-managed install_data
+[0.962s] /home/uaskash/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.962s]   warnings.warn(msg)
+[1.066s] running egg_info
+[1.081s] writing ../../build/thrust_package/thrust_package.egg-info/PKG-INFO
+[1.081s] writing dependency_links to ../../build/thrust_package/thrust_package.egg-info/dependency_links.txt
+[1.081s] writing entry points to ../../build/thrust_package/thrust_package.egg-info/entry_points.txt
+[1.081s] writing requirements to ../../build/thrust_package/thrust_package.egg-info/requires.txt
+[1.081s] writing top-level names to ../../build/thrust_package/thrust_package.egg-info/top_level.txt
+[1.118s] reading manifest file '../../build/thrust_package/thrust_package.egg-info/SOURCES.txt'
+[1.118s] adding license file 'LICENSE'
+[1.119s] writing manifest file '../../build/thrust_package/thrust_package.egg-info/SOURCES.txt'
+[1.119s] running build
+[1.119s] running build_py
+[1.120s] copying thrust_package/__init__.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+[1.120s] copying thrust_package/thrust_command.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+[1.120s] copying thrust_package/position_converter.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+[1.120s] copying thrust_package/controller.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+[1.120s] copying thrust_package/arm_command.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+[1.121s] running install
+[1.125s] running install_lib
+[1.141s] running install_data
+[1.141s] copying resource/thrust_package -> /home/uaskash/uas_ws/install/thrust_package/share/ament_index/resource_index/packages
+[1.141s] copying package.xml -> /home/uaskash/uas_ws/install/thrust_package/share/thrust_package
+[1.142s] running install_egg_info
+[1.162s] removing '/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.162s] Copying ../../build/thrust_package/thrust_package.egg-info to /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package-0.0.0-py3.10.egg-info
+[1.163s] running install_scripts
+[1.301s] Installing arm_command script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+[1.301s] Installing controller script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+[1.301s] Installing position_converter script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+[1.302s] Installing thrust script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+[1.302s] writing list of installed files to '/home/uaskash/uas_ws/build/thrust_package/install.log'
+[1.341s] Invoked command in '/home/uaskash/uas_ws/src/thrust_package' returned '0': PYTHONPATH=/home/uaskash/uas_ws/build/thrust_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/thrust_package build --build-base /home/uaskash/uas_ws/build/thrust_package/build install --record /home/uaskash/uas_ws/build/thrust_package/install.log --single-version-externally-managed install_data

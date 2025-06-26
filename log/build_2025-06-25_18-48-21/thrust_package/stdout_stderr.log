@@ -1,0 +1,34 @@
+/home/uaskash/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/thrust_package/thrust_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/thrust_package/thrust_package.egg-info/dependency_links.txt
+writing entry points to ../../build/thrust_package/thrust_package.egg-info/entry_points.txt
+writing requirements to ../../build/thrust_package/thrust_package.egg-info/requires.txt
+writing top-level names to ../../build/thrust_package/thrust_package.egg-info/top_level.txt
+reading manifest file '../../build/thrust_package/thrust_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/thrust_package/thrust_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying thrust_package/__init__.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+copying thrust_package/thrust_command.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+copying thrust_package/position_converter.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+copying thrust_package/controller.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+copying thrust_package/arm_command.py -> /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package
+running install
+running install_lib
+copying /home/uaskash/uas_ws/build/thrust_package/build/lib/thrust_package/controller.py -> /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package
+byte-compiling /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package/controller.py to controller.cpython-310.pyc
+running install_data
+copying resource/thrust_package -> /home/uaskash/uas_ws/install/thrust_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/uaskash/uas_ws/install/thrust_package/share/thrust_package
+running install_egg_info
+removing '/home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/thrust_package/thrust_package.egg-info to /home/uaskash/uas_ws/install/thrust_package/lib/python3.10/site-packages/thrust_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm_command script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+Installing controller script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+Installing position_converter script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+Installing thrust script to /home/uaskash/uas_ws/install/thrust_package/lib/thrust_package
+writing list of installed files to '/home/uaskash/uas_ws/build/thrust_package/install.log'

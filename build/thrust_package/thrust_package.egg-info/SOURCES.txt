@@ -15,4 +15,6 @@ test/test_flake8.py
 test/test_pep257.py
 thrust_package/__init__.py
 thrust_package/arm_command.py
+thrust_package/controller.py
+thrust_package/position_converter.py
 thrust_package/thrust_command.py

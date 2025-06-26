@@ -1,3 +1,5 @@
 [console_scripts]
 arm_command = thrust_package.arm_command:main
+controller = thrust_package.controller:main
+position_converter = thrust_package.position_converter:main
 thrust = thrust_package.thrust_command:main
